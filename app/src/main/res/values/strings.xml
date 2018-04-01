@@ -1,0 +1,35 @@
+<resources>
+
+    <!--General-->
+    <string name="app_name">Wave &amp; Pay</string>
+    <string name="title_home">Home</string>
+    <string name="title_favourite">Favourite</string>
+    <string name="title_history">History</string>
+    <string name="title_profile">Profile</string>
+    <string name="hello_blank_fragment">Hello</string>
+
+    <!--HomeFragment    -->
+    <string name="nfc_not_on">Please enable NFC in your settings</string>
+    <string name="nfc_on">NFC is on</string>
+    <string name="nfc_off">NFC is off</string>
+    <string name="send_money">Send money</string>
+    <string name="ready_to_send_money">Ready to send money</string>
+    <string name="nfc_not_enabled">NFC Settings</string>
+    <string name="nfc_in_settings">Please enable NFC in network settings</string>
+    <string name="ok">Ok</string>
+    <string name="open_settings">Open Settings</string>
+    <string name="nfc_not_present">Sorry, your device doesn\'t have NFC feature</string>
+    <string name="device_below_jellybean">Sorry, your device isn\'t compatible with this application</string>
+
+    <!--finger print-->
+    <string name="desc_fingerprint">Please place your fingertip on the scanner to verify your identity</string>
+    <string name="note">(Fingerprint sign in makes your app login much faster. Your device should have at least one fingerprint registered in device settings)</string>
+    <string name="title_activity_home">Fingerprint</string>
+    <string name="activity_home_desc">You have successfully logged in with fingerprint authentication</string>
+    <string name="activity_home_note">Close and re-open the app to see the fingerprint auth screen again</string>
+
+    <!--rupee symbol-->
+    <string name="Rs">\u20B9</string>
+
+</resources>
+

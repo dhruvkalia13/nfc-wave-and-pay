@@ -1,0 +1,61 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dhruvkalia.newproject.Fragment.HomeFragment">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/Rs"
+                android:layout_marginTop="20dp"
+                android:textSize="100sp"
+                android:textColor="@color/colorAccent"
+                android:textAlignment="center"
+                />
+
+            <EditText
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_text_amount"
+            android:inputType="number"
+            android:text="0"
+            android:textAlignment="center"
+            android:textSize="60sp"
+             />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=""
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:id="@+id/text_view_check_nfc"/>
+
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:text=""
+             android:layout_marginTop="20dp"
+             android:textSize="20sp"
+             android:textAlignment="center"
+             android:id="@+id/text_view_ready_to_send"/>
+
+         <Button
+             android:layout_width="150dp"
+             android:layout_height="wrap_content"
+             android:text="@string/send_money"
+             android:layout_marginTop="20dp"
+             android:id="@+id/button_send_money"
+             />
+        </LinearLayout>
+</FrameLayout>
